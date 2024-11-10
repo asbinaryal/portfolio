@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Ashwin Aryal's Portfolio</title>
+  </head>
+  <body>
+    <div
+      class="navbar flex_container justifier_navbar  navbar_mobile "
+      style="align-items: center"
+    >
+      <div class="logo_wrapper">ASHWIN</div>
+      <div class="flex_container navbar_mobile" style="gap: 20px">
+      
+        <div class="nav-item "  >
+          <a href="">Home</a>
+        </div>
+        <div class="nav-item"><a href="#my_skills">Skills</a></div>
+        <div class="nav-item"><a href="#contact_id">Contact</a></div>
+    </div>
+    </div>
+    <div style="background: #e7e7e7">
+      <div
+        class="flex_container"
+        style="
+          background: #e7e7e7;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 800px;
+          margin: auto;
+          padding-top: 40px;
+          padding-bottom: 20px;
+        "
+      >
+        <div>
+          <b style="color: #636363">Hi, I am</b>
+          <div
+            style="font-size: 40px; font-weight: bold; color: var(--primary)"
+          >
+            Ashwin Aryal
+          </div>
+          <div
+            style="
+              text-align: justify;
+              max-width: 400px;
+              line-height: 20px;
+              font-size: 14px;
+              color: #434343;
+              padding-top: 20px;
+            " class="mobile_view"
+          >
+            I'm Ashwin, an aspiring ASP.NET Core developer passionate about
+            building scalable, high-performance web applications. I am eager to
+            leverage my skills and grow in the dynamic field of software
+            development.
+          </div>
+          <div>
+            <br />
+            <br />
+            <button  class="primary_button" ><a href="#contact_id" style="color: white;">Contact Me</a></button>
+          </div>
+        </div>
+        <div class="profile_pic" style="position: relative;">
+          <div style="position: absolute; height: 40px; width: 40px; border-radius: 50%; background: var(--lightPrimary); top: 0;right: 35px;"></div>
+        </div>
+      </div>
+    </div>  
+    <div
+      style="max-width: 800px; margin: auto; text-align: center; padding: 20px"
+    >
+      <div class="divider" ></div>
+      <div id="my_skills" style="font-size: 23px;  font-weight: bold">My Skills</div>
+      <div class="flex_container asdf" style="justify-content: space-around">
+        <div class="rounded_Card" >
+          <i
+            class="fa-brands fa-html5"
+            style="font-size: 80px; color: var(--primary)"
+          ></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="rounded_Card">
+          <i
+            class="fa-brands fa-css3"
+            style="font-size: 80px; color: var(--primary)"
+          ></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="rounded_Card">
+          <i
+            class="fa-brands fa-node-js"
+            style="font-size: 80px; color: var(--primary)"
+          ></i>
+          <h3>JS</h3>
+        </div>
+        <div class="rounded_Card">
+          <img
+            src="./Images/download.png"
+            height="78px"
+            width="80px"
+            alt=""
+            style="border-radius: 50%"
+          />
+          <h3>ASP.Net Core</h3>
+        </div>
+      </div>
+    </div>
+    <div class="banner" style="margin-right: 0px;">
+      <div>Contact Me</div>
+      <a href="mailto:asbinaryal1@gmail.com">
+        <button
+          class="primary_button"
+          style="
+            width: 100px;
+            box-shadow: none;
+            background: white;
+            color: #434343;
+          "
+        >
+          Email me!
+        </button>
+      </a>
+    </div>
+    <div
+      class="flex_container"
+      style="
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1000px;
+        padding-top: 20px;
+      
+      "
+    >
+      <div class="images"></div>
+
+      <div class="comtact_me" id="contact_id" style="padding-top: 100px;">
+       
+        <div class="flex_containers">
+        <i class="fa-solid fa-location-dot" style="color: var(--primary); font-size: 25px; padding-top: 1px;"></i>
+        <span style="padding-left: 10px;font-size: 25px"> Location</span>
+      </div>
+      <p style="padding-left: 25px;">Nepal,Pokhara-07</p>
+      <div class="flex_containers">
+        <i class="fa-solid fa-phone" style="color: var(--primary); font-size: 25px;padding-top: 1px;"></i>
+        <span style="padding-left: 10px;font-size: 25px"> Contact</span>
+      </div>
+      <p style="padding-left: 25px;"><a href="tel:+9779818976614">977-9818976614</a></p>
+      <div class="flex_containers">
+        <i class="fa-solid fa-envelope" style="color: var(--primary); font-size: 25px;padding-top: 3px;"></i>
+        <span style="padding-left: 10px;font-size: 25px"> Email</span>
+      </div>
+      <p style="padding-left: 25px;"><a href="mailto:asbinaryal1@gmail.com">asbinaryal1@gmail.com</a></p>
+     
+      </div>
+    </div>
+    <!-- footer -->
+     <div class="footer" style="line-height: 30px;">
+      Pokhara-07,Nepal<br/>
+      <a href="https://www.facebook.com/asbin.aryal/"><i style="background: none; font-size: 24px;" class="fa-brands fa-facebook"></i> </a> &nbsp;
+      <a href="https://www.linkedin.com/in/ashwin-aryal-a7794875/" <i  class="fa-brands fa-linkedin" style="background: none; font-size: 24px;"></i></a> 
+      <a href="https://github.com/asbinaryal" <i  class="fa-brands fa-github" style="background: none; font-size: 24px;padding-left: 5px;"></i></a> <br/>
+     
+      ashwinaryal.com.np &copy All rights reserved 
+     </div>
+  </body>
+</html>
